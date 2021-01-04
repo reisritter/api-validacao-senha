@@ -15,7 +15,7 @@ public class UsuarioService {
 					
 		String senha = usuario.getUsuarioSenha().replaceAll("\\s", "");	
 		// Verifica se a senha não é vazia e se tem 9 ou mais caracteres
-		boolean resp = !senha.isBlank() && senha.length() >= 9;
+		boolean resp = senha.length() >= 9;
 		// Transforma a string em um vetor de char
 		char[] vetorSenha = senha.toCharArray();
 		//Vetor para verificação
