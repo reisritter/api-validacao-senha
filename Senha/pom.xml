@@ -14,8 +14,6 @@
 	<name>Senha</name>
 	<description>Validação de senha</description>
 
-	
-
 	<dependencies>
 	
 		<dependency>
