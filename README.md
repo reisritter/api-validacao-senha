@@ -1,5 +1,5 @@
 <h1>Projeto api-validacao-senha</h1>
-<small>O presente repositório contém apenas a api. Caso queira checar o front-end, basta clicar <a href="">aqui</a>.</small>
+<small>O presente repositório contém apenas a api. Caso queira checar o front-end, basta clicar <a href="https://github.com/reisritter/app-validacao/tree/master">aqui</a>.</small>
 <h3>Descrição</h3>
 <p>A premissa do projeto consiste na criação de uma api que tenha a capacidade de validar uma senha, seguindo as seguintes regras:</p>
 <ul>
@@ -22,7 +22,8 @@
 </ul>
 <p>Foi criado apenas uma entidade, "Usuario", com o atributo "usuarioSenha". </p>
 <h3>Instruções</h3>
-<p>O deploy do projeto foi realizado no Heroku. O seguinte link te levará para a aplicação!</p>
+<p>O deploy do projeto foi realizado no Heroku. Clique aqui para ser redirecionado para a aplicação.</p>
+https://app-validacao-senha.herokuapp.com/
 <p>Ela possui os seguintes elementos:</p>
 <ul>
   <li>Um campo de texto para inserir a senha;</li>
