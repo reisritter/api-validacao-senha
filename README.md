@@ -1,6 +1,6 @@
 <h1>Projeto api-validacao-senha</h1>
-<small>O presente repositório contém apenas a api. Caso queira checar o front-end, basta clicar <a
-    href="https://github.com/reisritter/app-validacao/tree/master">aqui</a>.</small>
+<blockquote>O presente repositório contém apenas a api. Caso queira checar o front-end, basta clicar <a target="_blank"
+    href="https://github.com/reisritter/app-validacao/tree/master">aqui</a>.</blockquote>
 <h3>Descrição</h3>
 <p>A premissa do projeto consiste na criação de uma api que tenha a capacidade de validar uma senha, seguindo as
   seguintes regras:</p>
@@ -23,7 +23,7 @@
   <li>Controller > Pacote que possui as classes que realizam as requisições;</li>
   <li>Config > Pacote que possui as classes com as configurações do projeto.</li>
 </ul>
-<p>Foi criado apenas uma entidade, "Usuario", com o atributo "usuarioSenha". A classe "usarioService" ficou responsável pela lógica da validação, sendo armazenado no método "public boolean validarSenha(Usuario usuario)".</p>
+<p>Foi criado apenas uma entidade, "Usuario", com o atributo "usuarioSenha". A classe "UsuarioService" ficou responsável pela lógica da validação, sendo armazenado no método "public boolean validarSenha(Usuario usuario)".</p>
 <blockquote>
   <p><strong><em>Nota:</em></strong> A lógica está toda comentada no código.</p>
 </blockquote>
@@ -32,7 +32,7 @@
 <p>Para poder trabalhar com SPA(Single page application), foi utilizado Angular juntamente com o BootStrap, um framework que facilita na estilização da página.</p>
 <p></p>
 <h3>Instruções</h3>
-<p>O deploy do projeto foi realizado no Heroku. Clique <a href="https://app-validacao-senha.herokuapp.com/">aqui</a> para ser redirecionado para a aplicação.</p>
+<p>O deploy do projeto foi realizado no Heroku. Clique <a target="_blank" href="https://app-validacao-senha.herokuapp.com/">aqui</a> para ser redirecionado para a aplicação.</p>
 <p>Ela possui os seguintes elementos:</p>
 <ul>
   <li>Um campo de texto para inserir a senha;</li>
